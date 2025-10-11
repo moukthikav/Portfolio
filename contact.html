@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — V. Moukthika</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .contact-list {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 500px;
+      background: var(--card);
+      padding: 24px;
+      border-radius: 14px;
+      border: 1px solid rgba(100,116,139,0.06);
+    }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 16px;
+    }
+    .contact-item a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+    .icon {
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">VM</div>
+      <span>V. Moukthika</span>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contact Me</h1>
+    <p>If you'd like to connect or collaborate, feel free to reach out through any of the following:</p>
+
+    <div class="contact-list">
+      <div class="contact-item">
+        <span class="icon">📧</span>
+        <span>moukthikaveerathu@gmail.com</span>
+      </div>
+
+      <div class="contact-item">
+        <span class="icon">💼</span>
+        <a href="https://www.linkedin.com/in/moukthika-veerathu-/" target="_blank">linkedin.com/in/moukthika</a>
+      </div>
+
+      <div class="contact-item">
+        <span class="icon">💻</span>
+        <a href="https://github.com/moukthikav" target="_blank">github.com/moukthikav</a>
+      </div>
+
+      <div class="contact-item">
+        <span class="icon">📱</span>
+        <span>+91 9063874100</span>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 V. Moukthika | All Rights Reserved
+  </footer>
+</body>
+</html>
